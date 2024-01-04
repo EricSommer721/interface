@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --div-hover-color: rgb(195 195 195 / 14%);
+}
+
+img {
+  max-width: unset;
+}
+
+@keyframes shining {
+  0% {
+    opacity: 1;
+    box-shadow: 0px 0px 70px 10px #DC16FF;
+  }
+
+  50% {
+    opacity: .7;
+    box-shadow: 0px 0px 70px 10px #DC16FF;
+  }
+
+  100% {
+    opacity: 1;
+    box-shadow: 0px 0px 70px 10px #DC16FF;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
